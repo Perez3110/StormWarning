@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Reckoning {
+
+	public static void main(String[] args) {
+
+		
+	Scanner	input = new Scanner(System.in);
+	
+	System.out.println("Is this a harsh class title? \n 0 for no, 1 for yes: ");
+	int introAnswer = input.nextInt();
+	if (introAnswer == 0) 
+			System.out.print("Well, your answer will change when I, Stormulator, \n"
+					+ "bringer of the end, will unravel my mysterious power of the storm."); 
+	if (introAnswer == 1)
+		System.out.print("Then my actions will agree with that answer when I, Stormulator, \n"
+				+ "Bringer of the End, will unravel my mysterious power of the storm."); 
+	else
+		System.out.print("I guess you were not able to answer properly. \n "
+				+ "I, Stormulator, Bringer of the End, shall keep you expressionless\n"
+				+ "with my mysterious power of the storm.")
+	}
+
+}

@@ -1,0 +1,117 @@
+import java.util.Scanner;
+public class EndofDays {
+
+	public static void main(String[] args) {
+
+		
+	Scanner	input = new Scanner(System.in);
+	
+	System.out.println("Is this a harsh class title? \n 0 for no, 1 for yes: ");
+	double introAnswer = input.nextDouble();
+	if (introAnswer == 0) 
+			System.out.println("Well, your answer will change when I, Stormulator, \n"
+					+ "bringer of the end, will unravel my mysterious power of the storm."); 
+	if (introAnswer == 1)
+		System.out.println("Then my actions will agree with harshness when I, Stormulator, \n"
+				+ "Bringer of the End, will unravel my mysterious power of the storm."); 
+	else
+		System.out.println("I guess you were not able to answer me properly. \n"
+				+ "I, Stormulator, Bringer of the End, shall keep you expressionless\n"
+				+ "with my mysterious power of the storm.");
+	
+	System.out.println("Enter a number that is not greater than, but prefer to be 14 to continue.");
+	int Mark = input.nextInt();
+	
+	switch (Mark) {
+	case 0: System.out.println("What have you done?! I absolutely cannot conjure any of my power!\n"
+			+ "Fine, keep your boring stabilized weather!"
+			+ "\nYou notice no change in weather and the voice of the Stormulator has"
+			+ "\nvanished"); System.exit(1);
+			
+	case 1: System.out.println("This is my power, but I'm not even trying"
+			+ "\nYou feel a drizzle of peaceful rain."); break;
+			
+	case 2: System.out.println("This is absoulutely riduculous, I will prove my terrifying"
+			+ "\nsoon enough."
+			+ "\nYou feel a strong breeze, only to realize that today is just a windy day."); break;
+			
+	case 3: System.out.println("I will show you mercy; for now."
+			+ "\nYou notice a simple, calming rainstorm that is relaxing to the ear."); break;
+			
+	case 4: System.out.println("I guess now is not the time to show off my true evil power"
+			+ "\nYou watch the news, noticing heavy rainstroms in California."); break;
+				
+	case 5: System.out.println("This is just a simple fraction of my power"
+			+ "\n You feel a cold breeze that begins to become colder, and then"
+			+ "\n watch the news to notice frozen powerlines have knocked out power"
+			+ "\n across a quarter of the entire state of Kansas."); break;	
+				
+	case 6: System.out.println("Oh come on, this is just a pathetic demonstration of my power!"
+			+ "\nYou notice on the news that a mysterious snowstorm started in "
+			+ "\nmere seconds, but does not appear to be too deadly right now. "); break;
+						
+	case 7: System.out.println("This is something that is usually seen, but this is still fun"
+			+ "\nYou notice clouds combining to create a heavy rain storm frequent enough to flood "
+			+ "\n an entire town,"); break;
+							
+	case 8: System.out.println("This is not my half-way point of power, but this is better than nothing"
+			+ "\nYou feel a strong breeze, then take a look at the news to realize that a combination"
+			+ "\n of three colossal tornadoes going at ridiculous speeds of 80 miles per hour"
+			+ "\n easily tear apart structures"); break;
+								
+	case 9: System.out.println("A little under my standards, but blunt force sounds distastful enough."
+			+ "\n You notice a giant cloud forming above your sheltered location\n"
+			+ "then you begin to hear loud beating above you. You end up witnessing"
+			+ "\n bowling ball-sized hail falling from the sky, preying that the stones will not fall through"); break;
+									
+	case 10: System.out.println("Just like my average disaster, but this level should do."
+			+ "\nYou begin to feel like your turning into a frozen statue and notice that the\n"
+			+ "temerature has decreased to -52 degrees Fahrenheit"
+			+ "\nyou quickly find a heated room to coordinate a plan"); break;
+										
+	case 11: System.out.println("A nice choice, this will create a beautiful scene. \n"
+			+ "You feel the earth begin to shake. Looking at the current state of disaster, \n"
+			+ "you see the staff in a newsroom on television discuss a 9.1 Earthquake, followed by a loss\n"
+			+ "of service"); break;
+							
+	case 12: System.out.println("A decent choice, this will descend into chaos shortly."
+			+ "\nYou notice a dormant volcano beginning to rumble and erupt./n"
+			+ "The lava and smoke approach your city"); break;
+								
+	case 13: System.out.println("This is almost the peak of my storm! Embrace the terror! \n"
+			+ "You witness the creation of a godlike storm on your radar containing lightning strikes \n"
+			+ "at the rapid count of 2,098,374 strikes in mere seconds with insane striking power, followed by a tornado-like blizzard\n"
+			+ "vacuuming disaster. This storm approaches your city."); break;
+									
+	case 14: System.out.println("I knew you wanted chaos to reign! Then behold my devastating storm! \n"
+			+ "The evil being conjured a storm beyond belief. You hear a strong breeze, you see "
+			+ "\nall devastating forms of weather, "
+			+ "\n you feel a strong chill, you smell disaster, and you will soon taste death."); break;
+	
+	default: System.out.println("What is this? It appears that you have discovered newly found \n"
+			+ "power for my brilliance! I now have the knowledge and power to create a species that \n"
+			+ "will swarm your kind and I can just sit back and watch this show!"
+			+ "\nYou notice alien creatures erupting from the ground, descending from the sky, appearing from th...\n"
+			+ "Ahahahaha! I'm so disastrous, you couldn't finish witnessing the gloriousness\n"
+			+ "before I put an end to you. Just like everything else soon enough."); System.exit(2);
+				
+																																																												
+	}
+	
+	char[] Fascination = {'F','a','s','c','i','n','a','t','i','n','g',',',' ', 'r','i','g','h','t','?'};
+	System.out.println(Fascination);
+	
+	System.out.println("A. Fascinating? Ha! Your efforts are laughable!"
+			+ "\nB. Well that was... interesting."
+			+ "\nC. That is fascinating, indeed!"
+			+ "\nD. Please stop this madness!"
+			+ "\nE. I shall put an end to your madness!");
+	char Answer = (char) input.nextInt();
+	if (Answer == 'A')
+		System.out.println("I'll show you true power soon enough, then we will see who is laughable then.");
+	
+	
+	
+	}
+
+}
