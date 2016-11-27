@@ -9,93 +9,93 @@ public class EndofDays {
 	
 	
 	
-	System.out.print("Hello, there. Is this a harsh class title? \n 0 for no, 1 for yes: ");
+	System.out.print("Stormulator: Hello, there. Is this a harsh class title? \n 0 for no, 1 for yes: ");
 	double introAnswer = input.nextDouble();
 	if (introAnswer == 0) 
-			System.out.println("Well, you will change your answer to yes when I, Stormulator, \n"
+			System.out.println("\nStormulator: Well, you will change your answer to yes when I, Stormulator, \n"
 					+ "bringer of the end, will unravel my mysterious power of the storm."); 
 	if (introAnswer == 1)
-		System.out.println("Then my actions will agree with your answer when I, Stormulator, \n"
+		System.out.println("\nStormulator: Then my actions will agree with your answer when I, Stormulator, \n"
 				+ "Bringer of the End, will unravel my mysterious power of the storm."); 
 	else
-		System.out.println("I guess you were not able to answer me properly. \n"
+		System.out.println("\nStormulator: I guess you were not able to answer me properly. \n"
 				+ "I, Stormulator, Bringer of the End, shall keep you expressionless\n"
 				+ "with my mysterious power of the storm.");
 	
-	System.out.print("Enter a number that is not greater than, but prefer to be 14 to continue.");
+	System.out.print("\nEnter a number that is not greater than, but prefer to be 14 to continue.");
 	int Mark = input.nextInt();
 	
 	switch (Mark) {
-	case 0: System.out.println("What have you done?! I absolutely cannot conjure any of my power!\n"
+	case 0: System.out.println("\nStormulator: What have you done?! I absolutely cannot conjure any of my power!\n"
 			+ "Fine, keep your boring stabilized weather!"
 			+ "\nYou notice no change in weather and the voice of the Stormulator has"
 			+ "\nvanished"); System.exit(1);
 			
-	case 1: System.out.println("This is my power, but I'm not even trying"
+	case 1: System.out.println("\nStormulator: This is my power, but I'm not even trying"
 			+ "\nYou feel a drizzle of peaceful rain."); break;
 			
-	case 2: System.out.println("This is absoulutely riduculous, I will prove my terrifying"
+	case 2: System.out.println("\nStormulator: This is absoulutely riduculous, I will prove that I am terrifying"
 			+ "\nsoon enough."
 			+ "\nYou feel a strong breeze, only to realize that today is just a windy day."); break;
 			
-	case 3: System.out.println("I will show you mercy; for now."
+	case 3: System.out.println("\nStormulator: I will show you mercy; for now."
 			+ "\nYou notice a simple, calming rainstorm that is relaxing to the ear."); break;
 			
-	case 4: System.out.println("I guess now is not the time to show off my true evil power"
+	case 4: System.out.println("\nStormulator: I guess now is not the time to show off my true evil power"
 			+ "\nYou watch the news, noticing heavy rainstroms in California."); break;
 				
-	case 5: System.out.println("This is just a simple fraction of my power"
+	case 5: System.out.println("\nStormulator: This is just a simple fraction of my power"
 			+ "\n You feel a cold breeze that begins to become colder, and then"
 			+ "\n watch the news to notice frozen powerlines have knocked out power"
 			+ "\n across a quarter of the entire state of Kansas."); break;	
 				
-	case 6: System.out.println("Oh come on, this is just a pathetic demonstration of my power!"
+	case 6: System.out.println("\nStormulator: Oh come on, this is just a pathetic demonstration of my power!"
 			+ "\nYou notice on the news that a mysterious snowstorm started in "
 			+ "\nmere seconds, but does not appear to be too deadly right now. "); break;
 						
-	case 7: System.out.println("This is something that is usually seen, but this is still fun"
+	case 7: System.out.println("\nStormulator: This is something that is usually seen, but this is still fun"
 			+ "\nYou notice clouds combining to create a heavy rain storm frequent enough to flood "
 			+ "\n an entire town,"); break;
 							
-	case 8: System.out.println("This is not my half-way point of power, but this is better than nothing"
+	case 8: System.out.println("\nStormulator: This is not my half-way point of power, but this is better than nothing"
 			+ "\nYou feel a strong breeze, then take a look at the news to realize that a combination"
 			+ "\n of three colossal tornadoes going at ridiculous speeds of 80 miles per hour"
 			+ "\n easily tear apart structures"); break;
 								
-	case 9: System.out.println("A little under my standards, but blunt force sounds distastful enough."
+	case 9: System.out.println("\nStormulator: A little under my standards, but blunt force sounds distastful enough."
 			+ "\n You notice a giant cloud forming above your sheltered location\n"
 			+ "then you begin to hear loud beating above you. You end up witnessing"
 			+ "\n bowling ball-sized hail falling from the sky, preying that the stones will not fall through"); break;
 									
-	case 10: System.out.println("Just like my average disaster, but this level should do."
+	case 10: System.out.println("\nStormulator: Just like my average disaster, but this level should do."
 			+ "\nYou begin to feel like your turning into a frozen statue and notice that the\n"
-			+ "temerature has decreased to -52 degrees Fahrenheit"
+			+ "temerature has decreased to -93 degrees Fahrenheit"
 			+ "\nyou quickly find a heated room to coordinate a plan"); break;
 										
-	case 11: System.out.println("A nice choice, this will create a beautiful scene. \n"
+	case 11: System.out.println("\nStormulator: A nice choice, this will create a beautiful scene. \n"
 			+ "You feel the earth begin to shake. Looking at the current state of disaster, \n"
 			+ "you see the staff in a newsroom on television discuss a 9.1 Earthquake, followed by a loss\n"
 			+ "of service"); break;
 							
-	case 12: System.out.println("A decent choice, this will descend into chaos shortly."
+	case 12: System.out.println("\nStormulator: A decent choice, this will descend into chaos shortly."
 			+ "\n Watching the news, you notice a dormant volcano beginning to rumble and erupt.\n"
 			+ "The lava and smoke approach your city."); break;
 								
-	case 13: System.out.println("This is almost the peak of my storm! Embrace the terror! \n"
+	case 13: System.out.println("\nStormulator: This is almost the peak of my storm! Embrace the terror! \n"
 			+ "You witness the creation of a godlike storm on your radar containing lightning strikes \n"
 			+ "at the rapid count of 2,098,374 strikes in mere seconds with insane striking power, followed by a tornado-like blizzard\n"
 			+ "vacuuming disaster. This storm approaches your city."); break;
 									
-	case 14: System.out.println("I knew you wanted chaos to reign! Then behold my devastating storm! \n"
+	case 14: System.out.println("\nStormulator: I knew you wanted chaos to reign! Then behold my devastating storm! \n"
 			+ "The evil being conjured a storm beyond belief. You hear a strong breeze, you see "
 			+ "\nall devastating forms of weather, "
 			+ "\nyou feel a strong chill, you smell disaster, and you will soon taste death."); break;
 	
-	default: System.out.println("What is this? It appears that you have discovered newly found \n"
+	default: System.out.println("\nStormulator: What is this? It appears that you have discovered newly found \n"
 			+ "power for my brilliance! I now have the knowledge and power to create a species that \n"
 			+ "will swarm your kind and I can just sit back and watch this show!"
 			+ "\nYou notice alien creatures erupting from the ground, descending from the sky, appearing from th...\n"
-			+ "Ahahahaha! I'm so disastrous, you couldn't finish witnessing the gloriousness\n"
+			+ "\nStormulator: Ahahahaha! I'm so disastrous, you couldn't finish witnessing the gloriousness\n"
 			+ "before I put an end to you. Just like everything else soon enough."); System.exit(2);
 				
 																																																												
@@ -104,9 +104,10 @@ public class EndofDays {
 	
 	
 	char[] Fascination = {'F','a','s','c','i','n','a','t','i','n','g',',',' ', 'r','i','g','h','t','?'};
-	System.out.println(Fascination);
+	System.out.print("\nStormulator: ");
+	System.out.print(Fascination);
 	
-	System.out.println("1. Fascinating? Ha! Your efforts are laughable!"
+	System.out.println("\n1. Fascinating? Ha! Your efforts are laughable!"
 			+ "\n2. Well that was... interesting."
 			+ "\n3. That is fascinating, indeed!"
 			+ "\n4. Please stop this madness!"
@@ -132,32 +133,32 @@ public class EndofDays {
 		else if (Answer != 1 && Answer != 2 && Answer != 3 && Answer != 4 && Answer != 5)
 			System.out.println("What is the matter? You are speechless!");
 		
-	System.out.print("Enter 1 to attempt to stop Stormulator, Enter 0 to give up: ");
+	System.out.print("\nEnter 1 to attempt to stop Stormulator, Enter 0 to give up: ");
 	int attempt = input.nextInt();
 	
 	if (attempt == 1)
-	System.out.println("Wait, what do you think you are you doing!?");
+	System.out.println("\nWait, what do you think you are you doing!?");
 	
 	
 	else {
-		System.out.println("You will taste death by the next storm!"
+		System.out.println("\nYou will taste death by my storm!"
 				+ "\nStormulator uses the power of the current storm to annihilate you."
 				+ "\nShould the current storm be too weak, Stormulator will enhance the storm\n"
 				+ "and then annihilate you."); System.exit(3); }
 	
-		for (int i=0; i!= 16; i=i+4) {
+		for (int i=0; i< 16; i=i+4) {
 		if (i == 0)
-			System.out.println("Okay, I have three shots at this to stop Stormulator. Now,"
+			System.out.println("\nOkay, I have three shots at this to stop Stormulator. Now,"
 				+ "\nI must recall the storm that was conjured.");
 		if (i == 4)
-			System.out.println("Okay, I have two attempts remaining. I must do better this time.");
+			System.out.println("\nOkay, I have two attempts remaining. I must do better this time.");
 		if (i == 8)
-			System.out.println("HAHAHAHA! You have one chance left! You can't possibly stop me, now!");
+			System.out.println("\nStormulator: HAHAHAHA! You have one chance left! You can't possibly stop me, now!");
 		if (i ==12) {
-			System.out.println("You are persistent, are you not? You will now pay for such transgression!"
+			System.out.println("\nStormulator: You are persistent, are you not? You will now pay for such transgression!"
 					+ "\nStormulator conjured a giant cloud around the earth and enveloped the planet in \n"
 					+ "a whirlwind of disaster."); System.exit(4); }
-					
+		
 					int recall = Mark;
 		
 		int[][] RecallandRelease = new int [7][2];
@@ -176,41 +177,51 @@ public class EndofDays {
 		RecallandRelease[6][0] = 13;
 		RecallandRelease[6][1] = 14;
 		
-		System.out.print("Recall the number used to create the storm: ");
+		System.out.print("\nRecall the storm number requested by Stormulator to"
+				+ "\nenter the storm's core and"
+				+ "\ndesperately attempt to put a stop to it: ");
 		int remember = input.nextInt();
 		
 		
-		if (remember == recall) {
-			
-		System.out.print("Now, I must get past this function."); 
-		
+		if (remember == recall){
+		System.out.print("\nNow this is my only chance; I must get past this problem:"); 
+		i = 16;
 		    boolean release;
 			int numberOne = (int) (Math.random() * 1000);
 			int numberTwo = (int) (Math.random() * 1000);
 			
-			System.out.println("What is " + numberOne + " + " + numberTwo + "?");
+			System.out.println(" What is " + numberOne + " + " + numberTwo + "?");
 			int answer = input.nextInt();
 			
-			if (answer != numberOne + numberTwo)
 			
 			
-			
-			
-				if (answer == numberOne + numberTwo) {
-				System.out.println("Noooooooooooooo?! My powers have been stripped from my hands; "
-					+ "\nYou may have defeated me, but you have not erased my pow..."
-					+ "\nCongratulations, you have defeated Stormulator!"
+				if (answer == numberOne + numberTwo) 
+				System.out.println("\nStormulator: Noooooooooooooo?! My powers have been stripped from my hands; "
+					+ "\nYou may have defeated me, but you have not erased my pow...\n"
+					+ "\nCongratulations, you have defeated Stormulator!\n"
 					+ "\nWhat is this!? You have suddenly burst to the skies and feel"
 					+ "\nan intense sense of power flowing about you. Your will has been stripped"
-					+ "\nfrom your hands and passed on to an unknown entity. You wish to conjure a storm.");
-				i = 16; }
+					+ "\nfrom your hands and passed on to an unknown entity. You wish to conjure a storm.\n\n"); 
 				
+				else if (answer != numberOne + numberTwo) {
+				System.out.println("\nYou failed to stop the storm, enraged Stormulator in the process, causing\n"
+						+ "him to obliterate you."
+						+ "\n\nStormulator: You are such a fool, thinking you were closing in on a \n"
+						+ "solution. You instead closed in on death.");
+				System.exit(6); }
+				 
+				}
+		
+			
+			}
+		
 				CustomMethodtoTakePower(Mark);
 				
-		}
 		
 		
-		}
+		
+		
+		
 		
 		
 		
@@ -225,14 +236,37 @@ public class EndofDays {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("You are forced to increase the power of the storm yourself."
-				+ "\n Enter a value to do so. There is a secret to ending this power."
+				+ "\nIncreasing power will be done just by simply stacking the storms together."
+				+ "\n\nEnter a value to do so. There is a secret to destroying this power."
 				+ "\nThe value chosen will determine that."
-				+ "\nHint: entering at least " + (Destroy + 14) + " \n"
-						+ "will summon the new destructive species");
+				+ "\n\nHint: entering at least " + (Destroy + 15) + " \n"
+						+ "will summon the end of days.");
 		int IncrementPower = input.nextInt();
+		int Result = IncrementPower - Destroy;
+		if (Result == 0) {
+			System.out.print("\nYou have snuffed out the storm by destroying the power"
+					+ "\ncreating it. You have finally stabilized the weather and saved planet Earth."); System.exit(8);
+		}
+		if (Result == Destroy + 15) {
+			System.out.print("\nYou notice creatures jutting from the ground, raining from the sky,"
+					+ "\nblowing out of the..."
+					+ "\nYour awareness is cut off by dying from the alien creatures.");
+		}
+		
+		int strike = 0;
+		if (Result >= 1 || Result <= 14)
+		do {strike++;
+			if (strike == 3) {
+			System.out.println("The area is packed with storms and you feel overwhelmed by"
+					+ "\n the amount of power that you have released. This is the time"
+					+ "\n to call off ending the storm and watch the world come to an end."); System.exit(7); }
+		
+		System.out.println("The storm strengthens. You must try once again to stop this.");
+			
+		} while (Result !=0 || Result > 14 || Result < 0);
 		
 		
-		
+			
 	}
 		
 		
